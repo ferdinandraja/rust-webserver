@@ -5,3 +5,8 @@ Then, the line method will iterate over the lines of the stream. Then, the metho
 
 ## Commit 2
 ![Commit 2 screen capture](/assets/images/commit2.png)
+
+## Commit 3
+The refactor that I add is to use If else to load the page by the status response
+![Commit 3 screen capture](/assets/images/commit3.png)
+
