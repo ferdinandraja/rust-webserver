@@ -10,3 +10,6 @@ Then, the line method will iterate over the lines of the stream. Then, the metho
 The refactor that I add is to use If else to load the page by the status response
 ![Commit 3 screen capture](/assets/images/commit3.png)
 
+## Commit 4
+The `sleep` one runs slower because the code itself command for the thread to sleep for 10 seconds in this snippet: `thread::sleep(Duration::from_secs(10));`
+
