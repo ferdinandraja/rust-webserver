@@ -13,3 +13,5 @@ The refactor that I add is to use If else to load the page by the status respons
 ## Commit 4
 The `sleep` one runs slower because the code itself command for the thread to sleep for 10 seconds in this snippet: `thread::sleep(Duration::from_secs(10));`
 
+## Commit 5
+The `pool` is used to increase the throughput of a program. The logic behind it is for assign a task to a thread in the pool where other threads wait for task.
